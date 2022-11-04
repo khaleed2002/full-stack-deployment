@@ -56,7 +56,7 @@ const model_index_1 = require("./controllers/v0/model.index");
     yield sequelize_1.sequelize.sync();
     console.log("Database Connected");
     const app = (0, express_1.default)();
-    const port = 8080;
+    const port = process.env.PORT || 8080;
     app.use(body_parser_1.default.json());
     // app.use(cors());
     // We set the CORS origin to * so that we don't need to

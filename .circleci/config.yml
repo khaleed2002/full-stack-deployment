@@ -15,6 +15,7 @@ jobs:
       - node/install:
           node-version: '16.17'         
       - checkout
+      - aws-cli/setup
       # Use root level package.json to install dependencies in the frontend app
       - run:
           name: Install Front-End Dependencies
@@ -59,7 +60,7 @@ jobs:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
-            echo "# TODO: Install, build, deploy in both apps"
+            npm run deploy
             
 workflows:
   udagram:

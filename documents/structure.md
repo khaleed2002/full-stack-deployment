@@ -11,7 +11,7 @@
 
 ### FrontEnd Enviroment: 
 
-* S3 BucketName: abanob-udagram
+* S3 BucketName: udagram-front
     
     S3 URL: `http://udagram-front.s3-website-us-east-1.amazonaws.com/`
 

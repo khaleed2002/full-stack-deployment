@@ -4,7 +4,7 @@
 
 # S3 Frontend (udagram-front)
 
-![S3 Frontend](./screenshots/Elasticbeanstalk/eb2.png)
+![S3 Frontend](./screenshots/Elasticbeanstalk/eb1.png)
 
 ### BackEnd Deploy Script:
  

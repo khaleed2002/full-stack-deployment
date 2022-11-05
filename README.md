@@ -43,6 +43,11 @@ Unit tests are using the Jasmine Framework.
 
 The e2e tests are using Protractor and Jasmine.
 
+### FrontEnd Enviroment: 
+
+* S3 BucketName: udagram-front
+    
+    S3 URL: `http://udagram-front.s3-website-us-east-1.amazonaws.com/`
 ## Built With
 
 - [Angular](https://angular.io/) - Single Page Application Framework
